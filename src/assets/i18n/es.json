@@ -1,0 +1,19 @@
+{
+  "HELLO_WORLD": "Hola Mundo!",
+  "MY_NAME_IS": "Mi nombre es {{ name }}",
+  "NAVBAR_LINKS": {
+    "HOME": "Inicio",
+    "ABOUT": "Sobre mi",
+    "PROJECTS": "Proyectos",
+    "CONTACT": "Contacto"
+  },
+  "PRESENTATION": {
+    "HI": "Hola,",
+    "I_AM": "Soy Agustin,",
+    "FRONTEND_DEVELOPER": "Desarollador Frontend"
+  },
+  "FOOTER": {
+    "RIGHTS_RESERVED": "Todos los derechos reservados."
+  }
+}
+
