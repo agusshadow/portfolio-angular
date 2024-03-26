@@ -1,14 +1,7 @@
-<div class="flex rounded-full container-button">
-  <a
-    class="block py-2 px-3 rounded-none">
-    <ng-container *ngIf="switchValue">EN</ng-container>
-    <ng-container *ngIf="!switchValue">ES</ng-container>
-  </a>
-  <div
-    class="bg-slate-400 text-white pe-3 rounded-full"
-    (click)="switchLanguage()">
-    <svg class="w-4 h-6 ms-2 text-zinc-100" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 18">
-      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 14 3-3m-3 3 3 3m-3-3h16v-3m2-7-3 3m3-3-3-3m3 3H3v3"/>
-    </svg>
-  </div>
-</div>
+<button
+  (click)="switchLanguage()"
+  type="button"
+  class="text-white uppercase	 bg-blue-800 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center">
+  <ng-container *ngIf="switchValue">en</ng-container>
+  <ng-container *ngIf="!switchValue">es</ng-container>
+</button>

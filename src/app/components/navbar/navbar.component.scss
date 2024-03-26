@@ -1,1 +1,24 @@
+#texto-titilante {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
 
+#cursor {
+  animation: cursorAnim 1s infinite;
+}
+
+@keyframes cursorAnim {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
