@@ -12,6 +12,10 @@
     "I_AM": "I'm Agustin,",
     "FRONTEND_DEVELOPER": "Frontend Developer"
   },
+  "ABOUT_ME": {
+    "NICE_TOO_MEET_YOU": "Nice to meet you",
+    "DESCRIPTION": "I am 20 years old and I am a current student studying Programming and Web Design at the DaVinci School. I am passionate about technology in general and I consider myself a person who achieves what he sets out to do. I work as a Frontend Developer at Rappi."
+  },
   "FOOTER": {
     "RIGHTS_RESERVED": "All Rights Reserved"
   }

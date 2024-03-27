@@ -12,6 +12,10 @@
     "I_AM": "Soy Agustin,",
     "FRONTEND_DEVELOPER": "Desarollador Frontend"
   },
+  "ABOUT_ME": {
+    "NICE_TOO_MEET_YOU": "Encantado de conocerte",
+    "DESCRIPTION": "Tengo 20 años y soy actual estudiante de la carrera de Programacion y Diseño Web en la escuela DaVinci. Soy un apasionado de la tecnologia en general y me considero una persona que logra lo que se propone. Trabajo como Frontend Developer en Rappi."
+  },
   "FOOTER": {
     "RIGHTS_RESERVED": "Todos los derechos reservados."
   }
