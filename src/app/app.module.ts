@@ -5,26 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
-
-/* Componentes */
-import { SwitchLanguageComponent } from './components/switch-language/switch-language.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { AboutMeComponent } from './components/about-me/about-me.component';
+import { NavbarModule } from './modules/navbar/navbar.module';
+import { PresentationModule } from './modules/presentation/presentation.module';
+import { FooterModule } from './modules/footer/footer.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SwitchLanguageComponent,
-    NavbarComponent,
-    FooterComponent,
-    AboutMeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    TranslocoRootModule
+    TranslocoRootModule,
+    NavbarModule,
+    PresentationModule,
+    FooterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
