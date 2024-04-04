@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
 import { NavbarModule } from './modules/navbar/navbar.module';
 import { PresentationModule } from './modules/presentation/presentation.module';
+import { TechnologiesModule } from './modules/technologies/technologies.module';
 import { FooterModule } from './modules/footer/footer.module';
 
 @NgModule({
@@ -20,6 +21,7 @@ import { FooterModule } from './modules/footer/footer.module';
     TranslocoRootModule,
     NavbarModule,
     PresentationModule,
+    TechnologiesModule,
     FooterModule
   ],
   providers: [],
