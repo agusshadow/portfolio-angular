@@ -7,6 +7,10 @@
     "PROJECTS": "Proyectos",
     "CONTACT": "Contacto"
   },
+  "LANGUAJES": {
+    "ENGLISH": "English (US)",
+    "SPANISH": "Español (AR)"
+  },
   "PRESENTATION": {
     "HI": "Hola,",
     "I_AM": "Soy Agustin,",
