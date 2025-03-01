@@ -3,9 +3,7 @@ import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
-    RouterModule.forRoot([], {
-      scrollPositionRestoration: 'enabled',
-    }),
+    RouterModule.forRoot([]),
   ],
   exports: [RouterModule],
 })
