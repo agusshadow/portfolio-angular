@@ -8,7 +8,7 @@ import { TranslocoRootModule } from './transloco-root.module';
 import { NavbarModule } from './modules/navbar/navbar.module';
 import { PresentationModule } from './modules/presentation/presentation.module';
 import { ProjectsModule } from './modules/projects/projects.module';
-import { TechnologiesModule } from './modules/technologies/technologies.module';
+import { ContactModule } from './modules/contact/contact.module';
 import { FooterModule } from './modules/footer/footer.module';
 
 @NgModule({
@@ -23,7 +23,7 @@ import { FooterModule } from './modules/footer/footer.module';
     NavbarModule,
     PresentationModule,
     ProjectsModule,
-    TechnologiesModule,
+    ContactModule,
     FooterModule
   ],
   providers: [],

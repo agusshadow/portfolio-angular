@@ -2,7 +2,6 @@
   "HELLO_WORLD": "Hola Mundo!",
   "MY_NAME_IS": "Mi nombre es {{ name }}",
   "NAVBAR_LINKS": {
-    "HOME": "Inicio",
     "ABOUT": "Sobre mi",
     "PROJECTS": "Proyectos",
     "CONTACT": "Contacto"
@@ -18,7 +17,26 @@
   },
   "ABOUT_ME": {
     "NICE_TOO_MEET_YOU": "Encantado de conocerte",
-    "DESCRIPTION": "Soy un apasionado de la programación y el diseño. Actualmente estudio Diseño y Programación Web en la escuela Da Vinci y trabajo en Rappi como Frontend Developer a tiempo completo. Me encanta aprender y mejorar mis habilidades técnicas y creativas en este campo en constante evolución. Estoy emocionado por los proyectos futuros que me permitirán seguir contribuyendo con soluciones innovadoras en esta apasionante industria."
+    "DESCRIPTION": "Soy un desarrollador de software con más de tres años de experiencia. Me apasiona la optimización de procesos, el trabajo en equipo y aprender nuevas tecnologías para crear soluciones eficientes y escalables."
+  },
+  "CONTACT": {
+    "TITLE": "Contacto",
+    "SUBTITLE": "Si tienes alguna duda o quieres saber más sobre mi trabajo, no dudes en escribirme.",
+    "FORM": {
+      "MAIL": {
+        "LABEL": "Email"
+      },
+      "MESSAGE": {
+        "LABEL": "Mensaje",
+        "PLACEHOLDER": "Escribe tu consulta..."
+      },
+      "WHATSAPP": {
+        "TEXT_1": "También puedes contactarme por ",
+        "TEXT_2": "WhatsApp",
+        "TEXT_3": " si prefieres comunicarte de esa forma."
+      },
+      "SEND": "Enviar"
+    }
   }
 }
 

@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TechnologiesComponent } from './components/technologies/technologies.component';
+import { ContactComponent } from './components/form/contact/contact.component';
 import { TranslocoRootModule } from 'src/app/transloco-root.module';
 
 @NgModule({
   declarations: [
-    TechnologiesComponent
+    ContactComponent
   ],
   imports: [
     CommonModule,
     TranslocoRootModule
   ],
   exports: [
-    TechnologiesComponent
+    ContactComponent
   ]
 })
-export class TechnologiesModule { }
+export class ContactModule { }

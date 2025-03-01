@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from 'src/app/modules/navbar/components/navbar/navbar.component';
 import { TranslocoRootModule } from 'src/app/transloco-root.module';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -9,7 +10,8 @@ import { TranslocoRootModule } from 'src/app/transloco-root.module';
   ],
   imports: [
     CommonModule,
-    TranslocoRootModule
+    TranslocoRootModule,
+    RouterModule
   ],
   exports: [
     NavbarComponent,

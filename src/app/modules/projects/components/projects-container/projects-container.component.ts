@@ -21,7 +21,7 @@ export class ProjectsContainerComponent implements OnInit {
       if (projects.length > 0 && projects[0].owner && projects[0].owner.avatar_url) {
         this.avatarUrl = projects[0].owner.avatar_url;
       } else {
-        this.avatarUrl = ''; // En caso de que no haya un avatar_url válido
+        this.avatarUrl = '';
       }
     });
   }
