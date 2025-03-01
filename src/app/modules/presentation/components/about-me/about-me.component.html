@@ -1,9 +1,9 @@
-<section class="bg-blue-700 text-white text-center py-16">
+<app-section-container [color]="'blue'">
   <app-title [color]="'white'">{{ 'ABOUT_ME.NICE_TOO_MEET_YOU' | transloco }}</app-title>
-  <p class="text-lg lg:text-xl w-80 md:w-1/2 mx-auto">
+  <p class="text-lg lg:text-xl w-80 md:w-1/2 mx-auto text-white text-center font-light">
     {{ 'ABOUT_ME.DESCRIPTION' | transloco }}
   </p>
   <img
     class="profile bg-white w-40 md:w-1/12 mx-auto mt-10 md:mt-20 "
     src="../../../../../assets/images/perfil.png">
-</section>
+</app-section-container>
