@@ -19,6 +19,9 @@
     "NICE_TOO_MEET_YOU": "Encantado de conocerte",
     "DESCRIPTION": "Soy un desarrollador de software con más de tres años de experiencia. Me apasiona la optimización de procesos, el trabajo en equipo y aprender nuevas tecnologías para crear soluciones eficientes y escalables."
   },
+  "PROJECTS": {
+    "TITLE": "Proyectos"
+  },
   "CONTACT": {
     "TITLE": "Contacto",
     "SUBTITLE": "Si tienes alguna duda o quieres saber más sobre mi trabajo, no dudes en escribirme.",

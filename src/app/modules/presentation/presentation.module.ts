@@ -6,6 +6,7 @@ import { DownloadCvComponent } from './components/download-cv/download-cv.compon
 import { TranslocoRootModule } from 'src/app/transloco-root.module';
 import { NgxBootstrapIconsModule, ColorTheme } from 'ngx-bootstrap-icons';
 import { linkedin, github } from 'ngx-bootstrap-icons';
+import { CommonsModule } from 'src/app/common/common.module';
 
 const icons = {
   linkedin,
@@ -20,6 +21,7 @@ const icons = {
   ],
   imports: [
     CommonModule,
+    CommonsModule,
     TranslocoRootModule,
     NgxBootstrapIconsModule.pick(icons, {
       width: '2em',

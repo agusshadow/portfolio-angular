@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CommonsModule } from './common/common.module';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
 import { NavbarModule } from './modules/navbar/navbar.module';
@@ -20,6 +21,7 @@ import { FooterModule } from './modules/footer/footer.module';
     AppRoutingModule,
     HttpClientModule,
     TranslocoRootModule,
+    CommonsModule,
     NavbarModule,
     PresentationModule,
     ProjectsModule,

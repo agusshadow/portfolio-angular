@@ -19,6 +19,9 @@
     "NICE_TOO_MEET_YOU": "Nice to meet you",
     "DESCRIPTION": "I am a software developer with more than three years of experience. I am passionate about process optimization, teamwork and learning new technologies to create efficient and scalable solutions."
   },
+  "PROJECTS": {
+    "TITLE": "Projects"
+  },
   "CONTACT": {
     "TITLE": "Contact",
     "SUBTITLE": "If you have any questions or want to know more about my work, do not hesitate to write to me.",
